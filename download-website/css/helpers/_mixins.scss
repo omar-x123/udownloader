@@ -1,0 +1,6 @@
+@use "./helpers/variables" as *;
+
+@mixin header {
+  display: flex;
+  box-shadow: 0 0 10px $light-shadow;
+}
